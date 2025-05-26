@@ -15,7 +15,7 @@ var wantedStations = []int{3085, 3087, 48840}
 
 func main() {
 	day := time.Now()
-	day = day.Add(time.Duration(-5 * 24) * time.Hour)
+	
 	fmt.Printf("Lunch for %d %s %d\n", day.Day(), day.Month(), day.Year())
 	url := fmt.Sprintf(urlFormat, day.Year(), day.Month(), day.Day())
 	data, err := network.GetMenuWeekData(url)
