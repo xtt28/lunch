@@ -1,0 +1,10 @@
+#+TITLE: lunch
+#+AUTHOR: xtt28
+
+** Description
+
+Command-line utility that tells you what's for lunch today at BCA.
+
+** License
+
+GNU GPL v3.0 or later.
